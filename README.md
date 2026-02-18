@@ -6,10 +6,10 @@ This repository tracks my progress in cybersecurity fundamentals. Each project f
 
 ## 🚀 Projects
 
-| No. | Project Name                                             | Phase          | Key Tech      | Status      |
-| :-- | :------------------------------------------------------- | :------------- | :------------ | :---------- |
-| 01  | [Automated Network Scanner](./project01-network-scanner) | Reconnaissance | Python, Nmap  | ✅ Complete |
-| 02  | [Simple IDS](./project02-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
+| No. | Project Name                                        | Phase          | Key Tech      | Status      |
+| :-- | :-------------------------------------------------- | :------------- | :------------ | :---------- |
+| 01  | [Automated Network Scanner](./pc01-network-scanner) | Reconnaissance | Python, Nmap  | ✅ Complete |
+| 02  | [Simple IDS](./pc02-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
 
 ---
 

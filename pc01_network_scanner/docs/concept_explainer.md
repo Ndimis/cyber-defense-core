@@ -29,8 +29,13 @@ By running this script daily, a security engineer can:
 ### :blue_book: Example Output
 
 Host : 127.0.0.1 :
+
 --> : {'port': 135, 'service': 'msrpc', 'state': 'open'}
+
 --> : {'port': 137, 'service': 'netbios-ns', 'state': 'filtered'}
+
 --> : {'port': 445, 'service': 'microsoft-ds', 'state': 'open'}
+
 --> : {'port': 903, 'service': 'vmware-auth', 'state': 'open'}
+
 --> : {'port': 913, 'service': 'vmware-auth', 'state': 'open'}

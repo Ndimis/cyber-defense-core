@@ -13,7 +13,7 @@ def scan_network(target_ip):
     
     # Perform a simple scan on common ports
     # Arguments: -sV (Service Version detection), -T4 (Timing template for speed)
-    nm.scan(target_ip, '22-2000', arguments='-sV')
+    nm.scan(target_ip, '22-2000', arguments='-Pn -sS -sV ')
     
     scan_results = []
     for host in nm.all_hosts():
@@ -37,7 +37,7 @@ def scan_network(target_ip):
 
 if __name__ == "__main__":
     # Test on your local machine or gateway
-    results = scan_network('127.0.0.1')
+    results = scan_network('192.168.2.1')
     for elt in results:
         print(f"Host : {elt['host']} : ")
         for proto in elt['protocols']:

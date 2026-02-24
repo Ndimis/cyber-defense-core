@@ -9,7 +9,7 @@ This repository tracks my progress in cybersecurity fundamentals. Each project f
 | No. | Project Name                                        | Phase          | Key Tech      | Status      |
 | :-- | :-------------------------------------------------- | :------------- | :------------ | :---------- |
 | 01  | [Automated Network Scanner](./pc01-network-scanner) | Reconnaissance | Python, Nmap  | ✅ Complete |
-| 03  | [Honeypot Engine](./pc02-honey-engine)                | Detection      | Python | ✅ Complete  |
+| 03  | [Honeypot Engine](./pc02-honey-engine)                | Prevention      | Python | ✅ Complete  |
 | 03  | [Simple IDS](./pc03-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
 
 ---

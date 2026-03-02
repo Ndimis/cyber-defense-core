@@ -16,3 +16,14 @@ By populating unused ports with deceptive listeners, we achieve:
 
 ### 🎓 Professional Takeaway
 This project demonstrates expertise in **Concurrent Programming (Threading)** and **Security Orchestration**. It proves you can build high-performance, multi-threaded systems that provide wide-spectrum visibility across a network infrastructure.
+
+### Test-procedure
+
+**Hit the FTP Trap (Port 21)** : You can use PowerShell or Nmap to "probe" your deceptive services.
+Test-NetConnection -ComputerName 127.0.0.1 -Port 21
+
+**Hit the HTTP Trap (Port 80)**
+Test-NetConnection -ComputerName 127.0.0.1 -Port 80
+
+**Scan all ports managed by the mesh**: This is the most realistic "attacker" simulation:
+nmap -sV -p 21,23,80 127.0.0.1

@@ -10,9 +10,9 @@ This repository tracks my progress in cybersecurity fundamentals. Each project f
 | :-- | :-------------------------------------------------- | :------------- | :------------ | :---------- |
 | 01  | [Automated Network Scanner](./pc01-network-scanner) | Reconnaissance | Python, Nmap  | ✅ Complete |
 | 02  | [Honeypot Engine](./pc02-honey-engine)                | Prevention   | Python | ✅ Complete  |
-| 03  | [Simple IDS](./pc03-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
-| 04  | [Honeypot Engine](./pc02-honey-engine)                | Prevention   | Python | ✅ Complete  |
-| 05  | [Simple IDS](./pc03-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
+| 03  | [Honey mesh](./pc03-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
+| 04  | [FIrewall Orchestrator](./pc02-honey-engine)                | Prevention   | Python | ✅ Complete  |
+| 05  | [Ssh brute force](./pc03-simple-ids)                     | Detection      | Scapy, Python | ⏳ Planned  |
 ---
 
 ## 🛠️ Environment Setup
